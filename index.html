@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REALTIME CHAT</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <section class="chat">
+        <div class="brand">
+            <h1>REALTIME CHAT</h1>
+        </div>
+        <div class="message-area"></div>
+        <div>
+            <span class="typing"></span>
+            <textarea id="textarea" placeholder="Write your message..."></textarea>
+        </div>
+        <span class="alert-socket">Socket.io not supported with Vercel! Run project on localhost!</span>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+
+</html>
